@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wingeat/static/css/main.053f58a8.chunk.css",
-    "main.js": "/wingeat/static/js/main.153a28e3.chunk.js",
-    "main.js.map": "/wingeat/static/js/main.153a28e3.chunk.js.map",
+    "main.js": "/wingeat/static/js/main.a38cee18.chunk.js",
+    "main.js.map": "/wingeat/static/js/main.a38cee18.chunk.js.map",
     "runtime-main.js": "/wingeat/static/js/runtime-main.6f071fbf.js",
     "runtime-main.js.map": "/wingeat/static/js/runtime-main.6f071fbf.js.map",
     "static/js/2.6fb8893f.chunk.js": "/wingeat/static/js/2.6fb8893f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6f071fbf.js",
     "static/js/2.6fb8893f.chunk.js",
     "static/css/main.053f58a8.chunk.css",
-    "static/js/main.153a28e3.chunk.js"
+    "static/js/main.a38cee18.chunk.js"
   ]
 }
