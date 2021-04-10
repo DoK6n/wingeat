@@ -32,7 +32,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/wingeat/'>
+          <Route exact path='/wingeat'>
             <Home />
           </Route>
           <Route path='/wingeat/cart' component={Cart} />

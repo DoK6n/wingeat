@@ -41,12 +41,12 @@ const Logo = () => {
     <header>
       <Navbar>
         <Counter />
-        <Link to='/cart'>
+        <Link to='/wingeat/cart'>
           <p>장바구니</p>
         </Link>
       </Navbar>
       <LogoImg>
-        <Link to='/'>
+        <Link to='/wingeat'>
           <img src='https://image.wingeat.com/logo/images/we_logo_center.png' alt=''></img>
         </Link>
       </LogoImg>
