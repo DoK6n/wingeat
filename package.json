@@ -30,7 +30,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "https://dok6n.github.io/wingeat",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -32,10 +32,10 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/'>
-              <Home />
+          <Route exact path='/wingeat/'>
+            <Home />
           </Route>
-          <Route path='/cart' component={Cart} />
+          <Route path='/wingeat/cart' component={Cart} />
         </Switch>
       </Router>
     </ThemeProvider>
