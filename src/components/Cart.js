@@ -10,12 +10,6 @@ function Cart() {
   const dispatch = useDispatch();
 
   const urlForePart = 'https://image.wingeat.com/';
-
-  const handleChange = e => {
-    const itemData = JSON.parse(e.target.value);
-    const itemPrice = parseInt(itemData.price);
-    dispatch(actions.checkbox(itemPrice, itemData, e.target.checked));
-  };
   
   return (
     <>
@@ -24,6 +18,7 @@ function Cart() {
         {items.data.length === 0? <h1>장바구니에 담긴 상품이 없음</h1> : <>
         <carts.List>
           {items.data.map((item, index) => (
+            
             <carts.CartItem key={index}>
               <carts.CloseBtn>
                 <span
